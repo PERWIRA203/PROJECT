@@ -593,13 +593,14 @@
     width: 90%;
     margin: auto;
     margin-bottom: 30px;
-    margin-left: 10px;
+    margin-left: 30px;
     padding-top: 30px;
 }
 .hal{
     font-size: 40px;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
     text-align: left;
     font-family: sans-serif;
 }
@@ -611,23 +612,32 @@
 }
 .hak{
     font-size: 20px;
+    margin-top: 40px;
+    margin-left: 80px;
+    font-family: sans-serif;
+}
+.hak1{
+    font-size: 20px;
     margin-top: 20px;
+    margin-left: 80px;
     font-family: sans-serif;
 }
 .bh{
     width: 850px;
     height: 670px;
+    margin-left: 100px;
     margin-top: 10px
 }
 .bh1{
     width: 790px;
     height: 480px;
+    margin-left: 100px;
     margin-top: 10px
 }
 .ho{
     font-size: 20px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 100px;
     text-align: center;
     font-family:  sans-serif;
     color: white;
@@ -638,7 +648,7 @@
 .ho1{
     font-size: 20px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 100px;
     text-align: center;
     font-family:  sans-serif;
     color: white;
@@ -649,7 +659,7 @@
 .ho2{
     font-size: 20px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 100px;
     text-align: center;
     font-family:  sans-serif;
     color: white;
@@ -660,7 +670,7 @@
 .ho3{
     font-size: 20px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 100px;
     text-align: center;
     font-family:  sans-serif;
     color: white;

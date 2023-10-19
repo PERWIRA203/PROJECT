@@ -30,7 +30,7 @@
 
                 <div>
                     <button class="button2" onclick="document.location='project5.html'"><span class="span2"></span>DHCP Server</button>
-                    <button class="button2" onclick="document.location='project4.html'"><span class="span2"></span>Brute Force</button>
+                    <button class="button2" onclick="document.location='project4.html'"><span class="span2"></span>SSH Server</button>
                     <button class="button2" onclick="document.location='project3.html'"><span class="span2"></span>Cisco</button>
                     <button class="button2" onclick="document.location='project6.html'"><span class="span2"></span>Ubuntu 20</button>
                 </div>
@@ -55,133 +55,133 @@
     <div class="isian" id="section2">
         <div>
             <h1 class="hal1">Step by Step :</h1>
-            <h1 class="hal">1. Set vmnet settings</h1>
-            <div>
-                <p class="hak">- Setting the Debian and Windows Xp or Ubuntu 20 VM to be LAN Segment</p>
-            </div>
-            <div>
-                <img class="bh" src="foto2.png">
-            </div>
+                <h1 class="hal">1. Set vmnet settings</h1>
+                <div>
+                    <p class="hak">- Setting the Debian and Windows Xp or Ubuntu 20 VM to be LAN Segment</p>
+                </div>
+                <div>
+                    <img class="bh" src="foto2.png">
+                </div>
             <h1 class="hal">2. Configure ip</h1>
-            <div>
-                <p class="hak">- First you must enter debian as root user</p>
-            </div>
-            <div>
-                <p class="hak">- After you in, you should type: </p>
-            </div>
-            <div>
-                <p class="ho">nano /etc/network/interfaces</p>
-            </div>
-            <div>
-                <p class="hak">- After you type, you should enter configuration ip file</p>
-            </div>
-            <div>
-                <p class="hak">- After you in the file, you should configuration this file</p>
-            </div>
-            <div>
-                <img class="bh1" src="foto3.png">
-            </div>
-            <div>
-                <p class="hak">- Set address, netmask, gateway, and network</p>
-            </div>
-            <div>
-                <p class="hak">- Ctrl x to save this after you've done configuration</p>
-            </div>
-            <div>
-                <p class="hak">- After you've done configuration, you need to restart networking service</p>
-            </div>
-            <div>
-                <p class="hak">- Restart networking service you need to type this:</p>
-            </div>
-            <div>
-                <p class="ho">service networking restart</p>
-            </div>
-            <div>
-                <p class="hak">- After restart the network, you can see the result by type:</p>
-            </div>
-            <div>
-                <p class="ho1">ip a</p>
-            </div>
-            <div>
-                <p class="hak">- If ip address doesn't show up you can type this to make it show:</p>
-            </div>
-            <div>
-                <p class="ho2">ifup eth0</p>
-            </div>
+                <div>
+                    <p class="hak">- First you must enter debian as root user</p>
+                </div>
+                <div>
+                    <p class="hak1">- After you in, you should type: </p>
+                </div>
+                    <div>
+                        <p class="ho">nano /etc/network/interfaces</p>
+                    </div>
+                <div>
+                    <p class="hak1">- After you type, you should enter configuration ip file</p>
+                </div>
+                <div>
+                    <p class="hak1">- After you in the file, you should configuration this file</p>
+                </div>
+                    <div>
+                        <img class="bh1" src="foto3.png">
+                    </div>
+                <div>
+                    <p class="hak1">- Set address, netmask, gateway, and network</p>
+                </div>
+                <div>
+                    <p class="hak1">- Ctrl x to save this after you've done configuration</p>
+                </div>
+                <div>
+                    <p class="hak1">- After you've done configuration, you need to restart networking service</p>
+                </div>
+                <div>
+                    <p class="hak1">- Restart networking service you need to type this:</p>
+                </div>
+                <div>
+                    <p class="ho">service networking restart</p>
+                </div>
+                <div>
+                    <p class="hak1">- After restart the network, you can see the result by type:</p>
+                </div>
+                    <div>
+                        <p class="ho1">ip a</p>
+                    </div>
+                <div>
+                    <p class="hak1">- If ip address doesn't show up you can type this to make it show:</p>
+                </div>
+                    <div>
+                        <p class="ho2">ifup eth0</p>
+                    </div>
             <h1 class="hal">3. Configure DHCP server</h1>
-            <div>
-                <p class="hak">- To configure DHCP server you need to install DHCP server</p>
-            </div>
-            <div>
-                <p class="hak">- To install DHCP server you can type this:</p>
-            </div>
-            <div>
-                <p class="ho3">apt-get install isc-dhcp-server</p>
-            </div>
-            <div>
-                <p class="hak">- After finish donwloaded, now you can configure DHCP server</p>
-            </div>
-            <div>
-                <p class="hak">- To configure DHCP server, you must enter configuration dhcp server file</p>    
-            </div>
-            <div>
-                <p class="hak">- To enter the file you can type this:</p>    
-            </div>
-            <div>
-                <p class="ho3">nano /etc/dhcp/dhcpd.conf </p>
-            </div>
-            <div>
-                <p class="hak">- After you enter it should be look like this:</p>
-            </div>
-            <div>
-                <img class="bh1" src="foto4.png">
-            </div>
-            <div>
-                <p class="hak">- remove the "#" on the internal subnet</p>
-            </div>
-            <div>
-                <p class="hak">- Now you can set the file as you want</p>
-            </div>
-            <div>
-                <p class="hak">- After you configure DHCP server file you need to save the file</p>
-            </div>
-            <div>
-                <p class="hak">- Ctrl x to save this after you've done configurate the file</p>
-            </div>
-            <div>
-                <p class="hak">- If the computer has two or more Ethernet. So it must be determined which Ethernet will receive the DHCP Server service</p>
-            </div>
-            <div>
-                <p class="hak">- For that, you need to edit the default dhcp file</p>
-            </div>
-            <div>
-                <p class="hak">- To edit the file you can type:</p>
-            </div>
-            <div>
-                <p class="ho3">nano /etc/default/isc-dhcp-server</p>
-            </div>
-            <div>
-                <p class="hak">- Edit the file just like the picture:</p>
-            </div>
-            <div>
-                <img class="bh1" src="foto5.png">
-            </div>
-            <div>
-                <p class="hak">- After edit the file, save the file by ctrl x</p>
-            </div>
+                <div>
+                    <p class="hak">- To configure DHCP server you need to install DHCP server</p>
+                </div>
+                <div>
+                    <p class="hak1">- To install DHCP server you can type this:</p>
+                </div>
+                    <div>
+                        <p class="ho3">apt-get install isc-dhcp-server</p>
+                    </div>
+                <div>
+                    <p class="hak1">- After finish donwloaded, now you can configure DHCP server</p>
+                </div>
+                <div>
+                    <p class="hak1">- To configure DHCP server, you must enter configuration dhcp server file</p>    
+                </div>
+                <div>
+                    <p class="hak1">- To enter the file you can type this:</p>    
+                </div>
+                    <div>
+                        <p class="ho3">nano /etc/dhcp/dhcpd.conf </p>
+                    </div>
+                <div>
+                    <p class="hak1">- After you enter it should be look like this:</p>
+                </div>
+                    <div>
+                        <img class="bh1" src="foto4.png">
+                    </div>
+                <div>
+                    <p class="hak1">- remove the "#" on the internal subnet</p>
+                </div>
+                <div>
+                    <p class="hak1">- Now you can set the file as you want</p>
+                </div>
+                <div>
+                    <p class="hak1">- After you configure DHCP server file you need to save the file</p>
+                </div>
+                <div>
+                    <p class="hak1">- Ctrl x to save this after you've done configurate the file</p>
+                </div>
+                <div>
+                    <p class="hak1">- If the computer has two or more Ethernet. So it must be determined which Ethernet will receive the DHCP Server service</p>
+                </div>
+                <div>
+                    <p class="hak1">- For that, you need to edit the default dhcp file</p>
+                </div>
+                <div>
+                    <p class="hak1">- To edit the file you can type:</p>
+                </div>
+                    <div>
+                        <p class="ho3">nano /etc/default/isc-dhcp-server</p>
+                    </div>
+                <div>
+                    <p class="hak1">- Edit the file just like the picture:</p>
+                </div>
+                    <div>
+                        <img class="bh1" src="foto5.png">
+                    </div>
+                <div>
+                    <p class="hak1">- After edit the file, save the file by ctrl x</p>
+                </div>
             <h1 class="hal">4. Testing</h1>
-            <div>
-                <p class="hak">- To test you can test it on windows xp</p>
-            </div>
-            <div>
-                <p class="hak">- It should be like this:</p>
-            </div>
-            <div>
-                <img class="bh1" src="foto6.png">
-            </div>
-            <div>
-                <p class="hak">- If your result just like the picture then congratulate you have made DHCP server</p>
-            </div>
+                <div>
+                    <p class="hak">- To test you can test it on windows xp</p>
+                </div>
+                <div>
+                    <p class="hak1">- It should be like this:</p>
+                </div>
+                    <div>
+                        <img class="bh1" src="foto6.png">
+                    </div>
+                <div>
+                    <p class="hak1">- If your result just like the picture then congratulate you have made DHCP server</p>
+                </div>
         </div>
     </div>
     <div class="footercontainer">
