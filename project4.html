@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="shortcut icon" href="kuproy.jpg" type="x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bre.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="scd.js"></script>
-    <title>Document</title>
+    <title>MyWebsites</title>
 </head>
 <body>
     <div class="bagus4">
@@ -20,7 +21,7 @@
 
         </div>
 
-        <div class="konten1">
+        <div class="konten1" class="transition">
             <div class="konten12">
                 <h1>Welcome To My Project</h1>
             </div>
@@ -30,14 +31,14 @@
 
                 <div>
                     <button class="button3" onclick="document.location='project5.html'"><span class="span3"></span>DHCP Server</button>
-                    <button class="button3" onclick="document.location='project4.html'"><span class="span3"></span>SSH Server</button>
+                    <button class="button3" onclick="document.location='project4.html'"><span class="span3"></span>Pnetlab</button>
                     <button class="button3" onclick="document.location='project3.html'"><span class="span3"></span>Cisco</button>
                     <button class="button3" onclick="document.location='project6.html'"><span class="span3"></span>Ubuntu 20</button>
                 </div>
             
             <div class="title">
                 <div>
-                    <h1 class="bru" style="margin-top: 30px">SSH SERVER</h1>
+                    <h1 class="bru" class="bo" style="margin-top: 30px; margin-bottom: 50px ;font-size: 70px;">PNETLAB</h1>
                 </div>
                 <div>
                     <button class="button7" id="scrollButton"><img width="70px" height="70px" src="down.png"></button>
@@ -49,9 +50,98 @@
 
 
     </div>
-    <div class="isian">
+    <div class="isian" id="section2">
         <div>
-            
+            <h1 class="hal1">Step by step:</h1>
+                <h1 class="hal">1. Setting interfaces</h1>
+                    <div>
+                        <p class="hak">- Insert the pnetlab file into VMware</p>
+                    </div>
+                    <div>
+                        <p class="hak1">- Set the pnetlab settings to be like this :</p>
+                    </div>
+                        <div>
+                            <img class="bh2" src="foto7.png">
+                        </div>
+                    <div>
+                        <p class="hak1">- After setting, turn on pnetlab</p>
+                    </div>
+                    <div>
+                        <p class="hak1">- Once it is on, log in to pnetlab as root user, enter the password :</p>
+                    </div>
+                        <div>
+                            <p class="ho1">pnet</p>
+                        </div>
+                    <div>
+                        <p class="hak1">- Later it will go into pnetlab</p>
+                    </div>
+                    <div>
+                        <p class="hak1">- Fill in all the data except the IP</p>
+                    </div>
+                    <div>
+                        <p class="hak1">- Go to the link :</p>
+                    </div>
+                        <div>
+                            <p class="ho4">http://192.168.222.159/store/public/admin/main/view</p>
+                        </div>
+                    <div>
+                        <p class="hak1">- If the screen is like this :</p>
+                    </div>
+                        <div>
+                            <img class="bh3" src="foto8.jpg">
+                    </div>
+                    <div>
+                        <p class="hak1">- Log in as admin and password :</p>
+                    </div>
+                        <div>
+                            <p class="ho1">pnet</p>
+                        </div>
+                <h1 class="hal">2. Setting Ishare</h1>
+                    <div>
+                        <p class="hak">- Enter this link into pnet lab :</p>
+                    </div>
+                        <div>
+                            <p class="ho5">wget -O /usr/sbin/ishare2 https://raw.githubusercontent.com/pnetlabrepo/ishare2/main/ishare2 > /dev/null 2>&1 && chmod +x /usr/sbin/ishare2 && ishare2</p>
+                        </div>
+                    <div>
+                        <p class="hak1">- Enter putty</p>
+                    </div>
+                    <div>
+                        <p class="hak1">- Enter ip :</p>
+                    </div>
+                        <div>
+                            <p class="ho3">192.168.222.159</p>
+                        </div>
+                    <div>
+                        <p class="hak1">- Search mikrotik</p>
+                    </div>
+                        <div>
+                            <p class="ho3">ishare2 search mikrotik</p>
+                        </div>
+                    <div>
+                        <p class="hak1">- Pull mikrotik number 604</p>
+                    </div>
+                        <div>
+                            <p class="ho3">ishare2 pull qemu 604</p>
+                        </div>
+                    <div>
+                        <p class="hak1">- Search cisco</p>
+                    </div>
+                        <div>
+                            <p class="ho3">ishare2 search iol</p>
+                        </div>
+                    <div>
+                        <p class="hak1">- Check by doing a test to create a new lab in pnetlab</p>
+                    </div>
+                    <div>
+                        <p class="hak1">- Enter the node then check mikrotik and cisco</p>
+                    </div>
+                <h1 class="hal">3. Fix permission</h1>
+                <h1 class="hal">4. Add router os</h1>
+                
+
+
+
         </div>
     </div>
     <div class="footercontainer">
